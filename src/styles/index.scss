@@ -1,0 +1,97 @@
+$primary-colour: #05f5ad;
+$secondary-colour: #701f9d;
+$twitch: #5e459e;
+$twitter: #4aa0eb;
+$youtube: #eb3323;
+$instagram: #ca4072;
+
+$font-stack: 'Roboto', sans-serif;
+
+html, body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    font-family: $font-stack;
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: $font-stack;
+    font-weight: 500;
+}
+
+p {
+    font-family: $font-stack;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hero-banner {
+    width: 100%;
+    top: 0;
+    position: relative;
+    background-image: linear-gradient(-45deg, #21032b, #075242);
+    height: 100vh;
+}
+
+.primary {
+    color: $primary-colour;
+}
+
+.hero {
+    font-size: 10vw;
+    margin: 0;
+}
+
+.centred {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.social-links {
+    width: 60%;
+    font-size: 4em;
+    display: flex;
+}
+
+.social-links > * {
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+}   
+
+.twitch {
+    color: $twitch;
+}
+
+.twitter {
+    color: $twitter;
+}
+
+.youtube {
+    color: $youtube;
+}
+
+.instagram {
+    color: $instagram;
+}

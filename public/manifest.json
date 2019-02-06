@@ -1,0 +1,15 @@
+{
+  "short_name": "browny182",
+  "name": "browny182 gaming",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "128x128 96x96 64x64 32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#05f5ad",
+  "background_color": "#701f9d"
+}

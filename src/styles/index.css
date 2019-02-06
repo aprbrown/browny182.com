@@ -1,0 +1,90 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hero-banner {
+  width: 100%;
+  top: 0;
+  position: relative;
+  background-image: linear-gradient(-45deg, #21032b, #075242);
+  height: 100vh;
+}
+
+.primary {
+  color: #05f5ad;
+}
+
+.hero {
+  font-size: 10vw;
+  margin: 0;
+}
+
+.centred {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.social-links {
+  width: 60%;
+  font-size: 4em;
+  display: flex;
+}
+
+.social-links > * {
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.twitch {
+  color: #5e459e;
+}
+
+.twitter {
+  color: #4aa0eb;
+}
+
+.youtube {
+  color: #eb3323;
+}
+
+.instagram {
+  color: #ca4072;
+}
+
+/*# sourceMappingURL=index.css.map */
