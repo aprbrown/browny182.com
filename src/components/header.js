@@ -7,10 +7,10 @@ class Header extends React.Component {
                 <div class='centred'>
                     <h1 class='primary hero'>BROWNY182</h1>
                     <ul class='social-links'>
-                        <a href="https://twitter.com/browny182"><i class="fab fa-twitter twitter"></i></a>
-                        <a href="https://www.instagram.com/browny182/"><i class="fab fa-instagram instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCvLP-nt_jUTRedEIzYgXDxQ"><i class="fab fa-youtube youtube"></i></a>
-                        <a href="https://www.twitch.tv/browny182"><i class="fab fa-twitch twitch"></i></a>
+                        <a href="https://twitter.com/browny182" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+                        <a href="https://www.instagram.com/browny182/" target="_blank"><i class="fab fa-instagram instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCvLP-nt_jUTRedEIzYgXDxQ" target="_blank"><i class="fab fa-youtube youtube"></i></a>
+                        <a href="https://www.twitch.tv/browny182" target="_blank"><i class="fab fa-twitch twitch"></i></a>
                     </ul>
                 </div>
                 
